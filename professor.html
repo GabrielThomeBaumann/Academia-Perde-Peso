@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Perde-Peso</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/professor/professor.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="Logo-da-empresa" src="./src/Imagens/ImagensDeAcademia/logo_da_academia.jpg" alt="Logo da Academia">
+        <h1 class="titulo1">Perde-Peso Fitness</h1>
+
+        <section class="opcoes-do-cabecalho">
+            <a href="index.html">Home</a>
+            <a href="SobreNós.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
+        </section>
+    </header>
+
+    <main class="conteudo">
+        <h2>Calculadora de IMC</h2>
+        <form id="formCalculoIMC">
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="homem">Homem</option>
+                <option value="mulher">Mulher</option>
+            </select><br>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required><br>
+
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" name="altura" required><br>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" required><br>
+
+            <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+        </form>
+
+        <h2>Alunos Registrados</h2>
+        <table id="tabelaAlunos">
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Altura (cm)</th>
+                <th>Peso (kg)</th>
+                <th>IMC</th>
+                <th>Dica Alimentar</th>
+                <th>Status</th>
+            </tr>
+        </table>
+    </main>
+
+    <script src="./src/professor/professor.js"></script>
+</body>
+</html>

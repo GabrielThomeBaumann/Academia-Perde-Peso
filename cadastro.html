@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da Academia Perde-Peso</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/cadastro.css/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="Logo-da-empresa" src="./src/Imagens/ImagensDeAcademia/logo_da_academia.jpg" alt="Logo da Academia">
+        <h1 class="titulo1">Perde-Peso Fitness</h1>
+
+        <section class="opcoes-do-cabecalho">
+            <a href="index.html">Home</a>
+            <a href="SobreNós.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
+            <a href="cadastro.html">Cadastrar</a>
+            <a href="Login.html">Login</a>
+        </section>
+    </header>
+
+    <h1>Formulário de Cadastro</h1>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+    
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+    
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="">Selecione</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+    
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+    
+        <input type="submit" value="Cadastrar">
+    </form>
+    
+</body>
+</html>

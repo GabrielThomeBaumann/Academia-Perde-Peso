@@ -1,0 +1,76 @@
+/* Estilos para a classe cabecalho */
+.cabecalho {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: flex; 
+    align-items: center;
+}
+
+/* Estilos para a classe Logo-da-empresa */
+.Logo-da-empresa {
+    width: 100px; 
+    height: 100px; 
+    margin-right: 20px;
+}
+
+/* Estilos para a classe titulo1 */
+.titulo1 {
+    font-size: 24px;
+    color: #333;
+    margin-right: auto;
+}
+
+/* Estilos para a classe opcoes-do-cabecalho */
+.opcoes-do-cabecalho {
+    display: flex; /* Faz com que os links sejam exibidos em linha */
+}
+
+/* Estilos para os links dentro da classe opcoes-do-cabecalho */
+.opcoes-do-cabecalho a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #555; 
+    margin-right: 10px; 
+}
+
+
+.opcoes-do-cabecalho a:hover {
+    color: #000; 
+}
+
+/* parte 2 */
+
+body{
+  font-family: Dosis, cursive;
+}
+  
+  .login-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

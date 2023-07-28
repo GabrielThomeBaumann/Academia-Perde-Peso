@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img.Logo-da-empresa {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+/* Estilos para a classe titulo1 */
+.titulo1 {
+    font-size: 24px;
+    color: #333;
+    margin-right: auto;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.opcoes-do-cabecalho {
+    display: flex; /* Faz com que os links sejam exibidos em linha */
+}
+
+/* Estilos para os links dentro da classe opcoes-do-cabecalho */
+.opcoes-do-cabecalho a {
+    text-decoration: none;
+    color: #555; 
+    margin-right: 10px; 
+    font-size: 20px;
+}
+
+
+.opcoes-do-cabecalho a:hover {
+    color: #000; 
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+/* Estilos do formulário */
+form {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos da tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
